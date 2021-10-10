@@ -1,0 +1,16 @@
+R-4.1 Describe a recursive algorithm for ﬁnding the maximum element in a se-
+quence, S, of n elements. What is your running time and space usage?
+
+def max_two(a, b)
+    if a >= b:
+        return a
+    else:
+        return b
+        
+def max_search(S, n):
+    if n == 1:
+        return S[0]
+    return max_two(S[n-1], max_search(S[:n-1], n-1))
+        
+
+Time is O(n)
