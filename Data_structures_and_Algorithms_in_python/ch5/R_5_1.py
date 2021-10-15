@@ -12,6 +12,7 @@ for k in range(n):
     print('Lingth: {0:3d}; Size in bytes: {1:4d}'.format(a, b))
     data.append(None)
 
+# Results 
 """
 Lingth:   0; Size in bytes:   56
 Lingth:   1; Size in bytes:   88
