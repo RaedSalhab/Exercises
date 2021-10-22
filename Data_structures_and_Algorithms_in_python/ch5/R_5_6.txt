@@ -1,0 +1,18 @@
+"""
+R-5.7 Let A be an array of size n ≥ 2 containing integers from 1 to n − 1, inclu-
+    sive, with exactly one repeated. Describe a fast algorithm for ﬁnding the
+    integer in A that is repeated.
+"""
+
+# Solution 1
+
+1. Create empty array as B 
+2. Make for loop for all items in array A
+3. Test item is in B if not exist append it to array B
+4. if exist that is meaning item repeated and return it
+
+# solution 2
+
+1. Make for loop for all items in array A.
+2. using count method to calculate number of times repeate item
+2. if item count greater than or equal 2 return item as repeated integer.
